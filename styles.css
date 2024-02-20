@@ -1,5 +1,5 @@
 body {
-  background-color: #c0e0de;
+  background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
 }
@@ -9,12 +9,13 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 .card {
   height: 17.5rem;
   width: 11.5rem;
-  background-color: #fff;
+  background-color:  hsl(0, 0%, 100%);
   border-radius: 10px;
   margin: auto;
   text-align: center;
@@ -52,6 +53,3 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-/* @media screen and (min-width: 426px){
- 
-} */
